@@ -25,13 +25,13 @@
     <p><p class="jm-font">내부에 넣을 내용을 입력해주세요</p>
 </details>
 	 <style>
-details { margin:3px 0 5px; }
-details > summary { background:#FF7493; color:#fff; padding:10px; outline:0; border-radius:5px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 1px 1px 2px gray;}
-details > summary::-webkit-details-marker { background:#FF7493; color:#fff; background-size:contain; transform:rotate3d(0, 0, 1, 90deg); transition:transform 0.25s;}
+details { margin:1px 0 3px; }
+details > summary { background:#d2d2d2; color:#fff; padding:3px; outline:0; border-radius:1px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 1px 1px 2px gray;}
+details > summary::-webkit-details-marker { background:#d2d2d2; color:#fff; background-size:contain; transform:rotate3d(0, 0, 1, 90deg); transition:transform 0.25s;}
 details[open] > summary::-webkit-details-marker { transform:rotate3d(0, 0, 1, 180deg);}
-details[open] > summary { background:#FF7493;}
+details[open] > summary { background:#d2d2d2;}
 details[open] > summary ~ * { animation:reveal 1s;}
-.tpt { background:#FF7493; color:#fff; margin:5px 0 10px; padding:5px 10px; line-height:25px; border-radius:5px; box-shadow: 1px 1px 2px gray;}
+.tpt { background:#d2d2d2; color:#fff; margin:1px 0 10px; padding:3px 3px; line-height:25px; border-radius:1px; box-shadow: 1px 1px 2px gray;}
 @keyframes reveal {
     from { opacity:0; transform:translate3d(0, -30px, 0); }
     to { opacity:1; transform:translate3d(0, 0, 0); }
